@@ -1,0 +1,16 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+//在templates目录下的所有页面，智能通过controller来跳转
+//需要模板引擎的支持，thymeleaf
+@Controller
+public class IndexController {
+
+    @RequestMapping("/index")
+    public String hello() {
+        return "index";
+    }
+}
