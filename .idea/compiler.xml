@@ -9,6 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_mybatis" />
+        <module name="springboot_data" />
         <module name="springBoot_quick" />
         <module name="springBoot" />
         <module name="springboot_quick2" />
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springBoot_quick" options="-parameters" />
+      <module name="springboot_data" options="-parameters" />
       <module name="springboot_jpa" options="-parameters" />
       <module name="springboot_mybatis" options="-parameters" />
       <module name="springboot_quick2" options="-parameters" />
